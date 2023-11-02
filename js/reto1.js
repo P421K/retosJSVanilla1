@@ -9,10 +9,13 @@ let num2 = +prompt(`ingresar numero 2:`);
 
 //comparacion de numeros
 if (num1 > num2) {
-    console.log(`el primer numero ${num1} , es mayor que el segundo numero. ${num2} .`)
-    
-}else if(num1 < num2){
-    console.log(`el primer numero ${num1} , es menor que el segundo numero. ${num2} .`)
-}else if(num1 == num2){
-    console.log(`el numero 1 ${num1} , es igual que numero 2 ${num2} .`)
+  console.log(
+    `el primer numero ${num1} , es mayor que el segundo numero. ${num2} .`
+  );
+} else if (num1 < num2) {
+  console.log(
+    `el primer numero ${num1} , es menor que el segundo numero. ${num2} .`
+  );
+} else if (num1 == num2) {
+  console.log(`el numero 1 ${num1} , es igual que numero 2 ${num2} .`);
 }
